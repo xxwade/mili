@@ -1,0 +1,23 @@
+{
+  "name": "babel-preset-mili",
+  "version": "0.1.0",
+  "author": "xxwade <xxwade2014@163.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "peerDependencies": {
+    "react-hot-loader": "*",
+    "react-scripts": "3.*"
+  },
+  "dependencies": {
+    "@loadable/babel-plugin": "^5.12.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-lodash": "^3.3.4"
+  }
+}
