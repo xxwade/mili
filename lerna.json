@@ -3,6 +3,7 @@
   "version": "independent",
   "command": {
     "publish": {
+      "ignoreChanges": ["*.md", "*.stories.{ts,tsx}", "*.test.{ts,tsx}"],
       "npmClient": "npm",
       "verifyAccess": false
     }
