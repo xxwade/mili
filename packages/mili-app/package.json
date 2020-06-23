@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.12.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "node-sass": "^4.14.1"
   }
 }
